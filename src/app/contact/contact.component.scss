@@ -1,0 +1,90 @@
+
+
+:root {
+  --primary1: #ddd;
+  --dark: rgb(51, 51, 51);
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+
+}
+
+body {
+   background: rgb(28, 145, 63);
+  margin: 30px 50px;
+  line-height: 1.4;
+}
+
+
+
+.tekst {
+  font-family: "Alike Angular";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.card-body {
+padding: 10px;
+}
+
+.btn {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+
+}
+
+.info {
+  background: var(--primary1);
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+.info {
+  grid-template-columns: 1fr;
+}
+
+.info .btn {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+
+.boxes {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: var(--primary1);
+  text-align: center;
+  padding: 1rem 1rem;
+  box-shadow: var(--shadow);
+}
+
+.myComponent {
+  height:auto;
+  padding-right:0px !important;
+
+  background-image: url("../../assets/tlkoContact1.jpg");
+
+
+}
+
+
