@@ -9,7 +9,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import {  NgxProgressiveImgLoaderModule } from 'ngx-progressive-img-loader';
 import { FooterComponent } from './footer/footer.component';
-
+import { StyleDirective } from './style.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     ServicesComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    StyleDirective
 
   ],
   imports: [

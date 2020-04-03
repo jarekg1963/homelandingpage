@@ -21,7 +21,23 @@ body {
   line-height: 1.4;
 }
 
+.headerContact .NaglowekHeader {
+  font-family: "Alike Angular";
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
 
+.headerContact .OpisHeader {
+  font-family: "Alike Angular";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
 
 .tekst {
   font-family: "Alike Angular";
@@ -29,7 +45,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 12px;
+  line-height: 18px;
 }
 
 .card-body {
@@ -88,3 +104,19 @@ padding: 10px;
 }
 
 
+html {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.btn-facebook {
+	color: #fff;
+	background-color: #4C67A1;
+}
+.btn-facebook:hover {
+	color: #fff;
+	background-color: #405D9B;
+}
+.btn-facebook:focus {
+	color: #fff;
+}

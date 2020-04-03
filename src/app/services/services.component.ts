@@ -17,4 +17,9 @@ export class ServicesComponent implements OnInit {
     this.activeModal.close('Modal Closed');
   }
 
+
+testClick() {
+  console.log("klimamy z herfu ");
+}
+
 }

@@ -1,44 +1,55 @@
+<div class="jobGlownaSekcja">
 <section class="info">
 <div class="container">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal()">
     <span aria-hidden="true">&times;</span>
   </button>
-  <h2>Image Gallery</h2>
-  <p>The .thumbnail class can be used to display an image gallery.</p>
-  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
-  <p>Click on the images to enlarge them.</p>
+  <h2>Job </h2>
+  <hr>
+  <p class="tekst">I was always fascinating new technology and since . When I have finised Technological University I have joined to postgraduated IT study. It was time when</p>
+  <p class="tekst">in EU slowly on market appeared PC computers and DOS operating system . This changed IT based  on mainframes . My fist company was big textile organization </p>
+  <p class="tekst">where I was resposible for implementation PC measure system for heating media. My take away was good knowlage operating systems , and  development  </p>
+  <p class="tekst">Pascal, Clippr, Bdase, Fox .After 2 years I have joined as shareholder to small IT company . We did project from scrach to end of implementation . </p>
+  <p class="tekst">Starting from PC/Servers assembly , network installation and  cofiguration , softawre prepatation and implementation . We worked for all bussiness areas </p>
+  <p class="tekst">all kind industries, local goverments, banks , agriculure , medical . My last stage doint up to today is IT Managment in big cmpany .  </p>
+
+  <br>
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="/w3images/lights.jpg" target="_blank">
-          <img src="https://image.ibb.co/j4Qz8x/pic1.jpg" alt="Lights" style="width:100%">
+        <a (click)="testClick()" target="_blank">
+          <img class="imgSize" src="../../../assets/jobSoftwareDevelopment.JPG" alt="Lights"  >
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>Development</p>
+          </div>
+        </a>
+
+      </div>
+
+
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a (click)="testClick()" target="_blank">
+          <img class="imgSize" src="../../../assets/jobProjectManagment.JPG" alt="Lights"  >
+          <div class="caption">
+            <p>Project managment</p>
           </div>
         </a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="/w3images/nature.jpg" target="_blank">
-          <img src="https://image.ibb.co/j4Qz8x/pic1.jpg" alt="Nature" style="width:100%">
+        <a (click)="testClick()" target="_blank">
+          <img class="imgSize" src="../../../assets/jobITmanagment.JPG" alt="Lights"  >
           <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="/w3images/fjords.jpg" target="_blank">
-          <img src="https://image.ibb.co/j4Qz8x/pic1.jpg" alt="Fjords" style="width:100%">
-          <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+            <p>IT Mangment</p>
           </div>
         </a>
       </div>
     </div>
   </div>
 </div>
-
+<app-footer></app-footer>
 </section>
+</div>
