@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import {  NgxProgressiveImgLoaderModule } from 'ngx-progressive-img-loader';
 import { FooterComponent } from './footer/footer.component';
 import { StyleDirective } from './style.directive';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +20,18 @@ import { StyleDirective } from './style.directive';
     ServicesComponent,
     ContactComponent,
     FooterComponent,
-    StyleDirective
+    StyleDirective,
+    SocialMediaComponent,
+
 
   ],
   imports: [
     NgbModule,
     BrowserModule,
     AppRoutingModule,
-    NgxProgressiveImgLoaderModule
+    NgxProgressiveImgLoaderModule,
+    FontAwesomeModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],

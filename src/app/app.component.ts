@@ -3,7 +3,7 @@ import { AboutComponent } from './components/about/about.component';
 import { Component, OnInit } from '@angular/core';
 import { NgbModal, NgbModalOptions } from '@ng-bootstrap/ng-bootstrap';
 import { ContactComponent } from './contact/contact.component';
-
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
   berlinjalow: string;
   imageLoaded: any;
   modalOptions: NgbModalOptions;
+  faCoffee = faCoffee;
 
   constructor(
     private modalService: NgbModal
